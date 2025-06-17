@@ -1,0 +1,21 @@
+{
+    "default_data_source": "tushare",
+    "log_level": "INFO",
+    "cache_enabled": true,
+    "data_fetch_timeout": 30,
+    "training_interval": {
+      "index": {
+        "Transformer": 30,
+        "ARIMA-GARCH": 5,
+        "XGB": 100
+      }
+    },
+    "trade_config":{
+      "index":{
+        "allow_short":false,
+        "allow_t0":true,
+        "enable_mtm":false
+      }
+    }
+  }
+  
